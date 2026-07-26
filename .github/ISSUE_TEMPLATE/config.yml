@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community discussions
+    url: https://github.com/PierrePerrin/vysio.app.feedback/discussions
+    about: Ask questions and discuss ideas with the community.
+  - name: 🌐 Vysio website
+    url: https://vysio.app
+    about: Product updates and official links.
