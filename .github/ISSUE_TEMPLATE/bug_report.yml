@@ -1,0 +1,111 @@
+name: "🐛 Bug Report"
+description: Report a reproducible issue in Vysio
+title: "[Bug]: "
+labels:
+  - bug
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this bug 🙌  
+        Please provide enough detail so we can reproduce and fix it quickly.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug summary
+      description: What happened?
+      placeholder: "When I press Cmd+W in VS Code on iPad, the workspace closes unexpectedly."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List exact steps so we can reproduce the issue.
+      placeholder: |
+        1. Open Vysio
+        2. Connect to GitHub Codespace
+        3. Open command palette
+        4. Press Cmd+W
+        5. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: "Cmd+W should close the active editor tab only."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: "The entire session/window is closed."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Remote provider
+      options:
+        - GitHub Codespaces
+        - code-server
+        - Gitpod
+        - Custom remote server
+        - Other / Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: vysio_version
+    attributes:
+      label: Vysio version / build
+      placeholder: "e.g. 0.9.4 (TestFlight 112)"
+    validations:
+      required: true
+
+  - type: input
+    id: ipad_model
+    attributes:
+      label: iPad model
+      placeholder: "e.g. iPad Pro 12.9-inch (6th generation)"
+    validations:
+      required: true
+
+  - type: input
+    id: ipados_version
+    attributes:
+      label: iPadOS version
+      placeholder: "e.g. iPadOS 18.1"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-flight checklist
+      options:
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: I can reproduce this issue on the latest available build.
+          required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots / recordings
+      description: Drag and drop files or paste links here.
+      placeholder: "Attach any helpful diagnostics."
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      placeholder: "Any other details that might help."
