@@ -1,14 +1,12 @@
 # 🚀 Vysio – Public Feedback & Issue Tracker
 
-[![TestFlight Beta](https://img.shields.io/badge/TestFlight-Join%20Beta-0A84FF?logo=apple&logoColor=white)](https://testflight.apple.com/join/YOUR_LINK)
+[![TestFlight Beta](https://img.shields.io/badge/TestFlight-Join%20Beta-0A84FF?logo=apple&logoColor=white)](https://testflight.apple.com/join/6UZqZvdA)
 [![Website](https://img.shields.io/badge/Website-vysio.app-111827?logo=safari&logoColor=white)](https://vysio.app)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/YOUR_INVITE)
-[![Twitter / X](https://img.shields.io/badge/X-%40vysio__app-000000?logo=x&logoColor=white)](https://x.com/vysio_app)
 
 Welcome to the official community and feedback repository for **Vysio** — the native iPad developer workspace for VS Code, GitHub Codespaces, and remote dev environments.
 
-[📱 Website](https://vysio.app) • [🧪 Join TestFlight Beta](https://testflight.apple.com/join/YOUR_LINK) • [💬 Report an Issue](https://github.com/vysio-app/vysio-feedback/issues)
+[📱 Website](https://vysio.app) • [🧪 Join TestFlight Beta](https://testflight.apple.com/join/6UZqZvdA) • [💬 Report an Issue](https://github.com/vysio-app/vysio-feedback/issues)
 
 ---
 
