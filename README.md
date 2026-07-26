@@ -84,6 +84,19 @@ Our public roadmap is structured into three key milestones:
 
 ---
 
+## 📚 Blog & Setup Guides
+
+Read our latest articles and technical guides directly in this repository:
+
+- 🚀 [**Introducing Vysio**](./blog/en/introducing-vysio.md) — Why we built a native iPad client for cloud IDEs.
+- ⌨️ [**Magic Keyboard & iPad Codespaces Setup**](./blog/en/magic-keyboard-ipad-codespaces-setup.md) — How to solve browser shortcut collisions.
+- 📱 [**GitHub Codespaces on iPad Guide**](./blog/en/github-codespaces-ipad-guide.md) — Step-by-step mobile cloud dev workflow.
+- 💡 [**Why We Built Vysio**](./blog/en/why-we-built-vysio.md) — The story behind desktop-class iPad dev tools.
+
+*(Available in English `blog/en/` and French `blog/fr/`)*
+
+---
+
 ## ❓ FAQ & Troubleshooting
 
 <details>
