@@ -1,0 +1,87 @@
+name: "✨ Feature Request"
+description: Suggest an idea or improvement for Vysio
+title: "[Feature]: "
+labels:
+  - feature
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your idea 💡  
+        Help us understand the use case and impact.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What pain point are you experiencing?
+      placeholder: "I can't quickly switch between two active remote workspaces on iPad."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe your ideal behavior or feature.
+      placeholder: "Add a workspace switcher with recent sessions and pinned environments."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or alternative approaches?
+      placeholder: "Today I disconnect/reconnect manually, which is slow."
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feature area
+      options:
+        - Keyboard / Input
+        - Security / Auth
+        - Codespaces
+        - code-server
+        - UI / Navigation
+        - Performance
+        - Offline / Reconnect
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Low (nice-to-have)
+        - Medium (improves regular workflow)
+        - High (blocks or heavily limits workflow)
+    validations:
+      required: true
+
+  - type: textarea
+    id: users
+    attributes:
+      label: Who benefits?
+      description: Is this specific to your setup or broadly useful?
+      placeholder: "Any iPad user working across multiple cloud dev environments."
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-flight checklist
+      options:
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: This request is focused on a single feature idea.
+          required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context / mockups
+      description: Add screenshots, sketches, or references.
