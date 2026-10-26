@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="assets/vysio-icon.png" alt="Vysio Logo" width="128" style="border-radius: 28px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);" />
+  <img src="assets/vysio-icon.png" alt="Vysio app icon" width="128" />
 
   # Vysio — Public Feedback & Issue Tracker
 
-  **The native iPad developer workspace built for VS Code, GitHub Codespaces, and remote dev environments.**
+  **The developer browser for iPhone and iPad, with web tools and remote development built in.**
 
   [![Waitlist](https://img.shields.io/badge/Waitlist-Join%20Early%20Access-0A84FF?style=for-the-badge&logo=apple&logoColor=white)](https://vysio.app)
   [![Website](https://img.shields.io/badge/Website-vysio.app-111827?style=for-the-badge&logo=safari&logoColor=white)](https://vysio.app)
@@ -13,7 +13,7 @@
 
   <br />
 
-  [📱 Website & Waitlist](https://vysio.app) • [🐛 Report a Bug](https://github.com/vysio-app/vysio-feedback/issues/new?template=bug_report.yml) • [✨ Request Feature](https://github.com/vysio-app/vysio-feedback/issues/new?template=feature_request.yml)
+  [📱 Website & Waitlist](https://vysio.app) • [🐛 Report a Bug](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=bug_report.yml) • [✨ Request Feature](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=feature_request.yml)
 
 </div>
 
@@ -22,29 +22,29 @@
 ## 📸 Preview
 
 <div align="center">
-  <img src="assets/vysio-ipad-editor.png" alt="Vysio iPad Editor Workspace" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
-  <p><i>Desktop-class VS Code development workspace running natively on iPadOS.</i></p>
+  <img src="assets/vysio-ipad-editor.png" alt="Vysio browser and remote development workspace on iPad" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
+  <p><i>Vysio brings browsing and remote development tools together on iPad.</i></p>
 </div>
 
 ---
 
 ## 💡 What is Vysio?
 
-Vysio blends the efficiency of a native iPadOS dashboard with a secure, sandboxed client built for modern cloud workspaces.
+Vysio is a native browser for iPhone and iPad that brings everyday browsing and developer tools together.
 
-### 🌟 Key Features
+### 🌟 Current App Features
 
-- ⌨️ **Native iPadOS Keyboard Integration**  
-  Intercepts Magic Keyboard shortcuts directly (e.g. `Cmd+W`, `Cmd+T`, `Cmd+P`) without browser tab collisions.
+- 🌐 **Desktop-class browsing** — Use a native tab strip, private tabs, Reader, bookmarks, history, and downloads.
 
-- 🔒 **Biometric Security & Keychain**  
-  Protect your sessions and tokens with Face ID, Touch ID, or device passcode stored securely in Apple Keychain.
+- 🛠️ **Built-in Web Inspector** — Inspect and edit the DOM and CSS, and debug with console and network tools.
 
-- 🚀 **Codespaces & Remote IDE Support**  
-  Connect seamlessly to GitHub Codespaces, `code-server`, Gitpod, and custom remote dev endpoints.
+- 🧭 **Omnibar & Agent** — Navigate to sites and workspaces, run browser actions, summarize pages, compare tabs, and search browsing history.
 
-- 📺 **Distraction-Free Fullscreen Focus**  
-  No browser chrome, no address bar overlays, and full support for trackpad gestures and touch interface.
+- 💻 **Codespaces, code-server & SSH** — Manage GitHub Codespaces, connect to self-hosted `code-server`, and use SSH terminal tabs.
+
+- 🔐 **Keychain & app lock** — Keep GitHub credentials in Apple Keychain and lock the app with Face ID, Touch ID, or your device passcode.
+
+- ⌨️ **iPad workflows & iCloud sync** — Use Magic Keyboard shortcuts and multi-window on iPad; sync bookmarks and history through iCloud.
 
 ---
 
@@ -52,8 +52,8 @@ Vysio blends the efficiency of a native iPadOS dashboard with a secure, sandboxe
 
 Use this repository to share feedback and help shape the future of Vysio:
 
-- 🐛 **Bug Reports** → [Open a Bug Report](https://github.com/vysio-app/vysio-feedback/issues/new?template=bug_report.yml)
-- ✨ **Feature Requests** → [Suggest a Feature](https://github.com/vysio-app/vysio-feedback/issues/new?template=feature_request.yml)
+- 🐛 **Bug Reports** → [Open a Bug Report](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=bug_report.yml)
+- ✨ **Feature Requests** → [Suggest a Feature](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=feature_request.yml)
 - 🗺️ **Public Roadmap** → Track upcoming milestones in our Issues & Discussions
 
 *Please search existing issues before opening a new one to prevent duplicates.*
@@ -104,14 +104,14 @@ Read our latest articles and technical guides directly in this repository:
 
 1. Ensure your `code-server` instance is reachable over **HTTPS**.
 2. Copy the full URL (e.g. `https://dev.yourdomain.com`).
-3. Open Vysio on iPad and paste the workspace URL.
+3. Open Vysio on iPhone or iPad and paste the workspace URL.
 4. Authenticate using your server’s configured auth/token flow.
 
 For private home-lab setups, we recommend using:
 - [Tailscale](https://tailscale.com) (private mesh VPN)
 - Cloudflare Tunnel (secure public ingress)
 
-Check out our companion guide repo: [`vysio-companion`](https://github.com/vysio-app/vysio-companion)
+See the [self-hosting templates](https://github.com/PierrePerrin/vysio.app.templates) for ready-to-deploy setups.
 
 </details>
 
