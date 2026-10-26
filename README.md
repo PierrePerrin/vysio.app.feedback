@@ -2,9 +2,9 @@
 
   <img src="assets/vysio-icon.png" alt="Vysio app icon" width="128" />
 
-  # Vysio — Public Feedback & Issue Tracker
+  # Vysio — Public Feedback, Issues & Discussions
 
-  **The developer browser for iPhone and iPad, with web tools and remote development built in.**
+  **A native, iPad-first developer browser for GitHub Codespaces and remote workspaces.**
 
   [![Waitlist](https://img.shields.io/badge/Waitlist-Join%20Early%20Access-0A84FF?style=for-the-badge&logo=apple&logoColor=white)](https://vysio.app)
   [![Website](https://img.shields.io/badge/Website-vysio.app-111827?style=for-the-badge&logo=safari&logoColor=white)](https://vysio.app)
@@ -13,7 +13,7 @@
 
   <br />
 
-  [📱 Website & Waitlist](https://vysio.app) • [🐛 Report a Bug](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=bug_report.yml) • [✨ Request Feature](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=feature_request.yml)
+  [📱 Website & Waitlist](https://vysio.app) • [🐛 Report a Bug](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=bug_report.yml) • [✨ Suggest a Feature](https://github.com/PierrePerrin/vysio.app.feedback/discussions/new?category=ideas) • [💬 Discussions](https://github.com/PierrePerrin/vysio.app.feedback/discussions)
 
 </div>
 
@@ -22,65 +22,53 @@
 ## 📸 Preview
 
 <div align="center">
-  <img src="assets/vysio-ipad-editor.png" alt="Vysio browser and remote development workspace on iPad" width="100%" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);" />
-  <p><i>Vysio brings browsing and remote development tools together on iPad.</i></p>
+  <img src="assets/vysio-browse.webp" alt="Vysio browser on iPad" width="32%" />
+  <img src="assets/vysio-web-inspector.webp" alt="Vysio Web Inspector on iPad" width="32%" />
+  <img src="assets/vysio-remote-ide.webp" alt="Remote IDE in Vysio on iPad" width="32%" />
+  <p><i>Current website screenshots: browsing, Web Inspector, and remote development.</i></p>
 </div>
 
 ---
 
 ## 💡 What is Vysio?
 
-Vysio is a native browser for iPhone and iPad that brings everyday browsing and developer tools together.
+Vysio combines a browser-first shell with GitHub Codespaces and remote development workspaces. The iPad is the primary target. An initial iPhone UI pass is in place, with device validation and remaining phone-specific work tracked in the [iPhone support checklist](https://github.com/PierrePerrin/vysio/blob/main/Docs/IPHONE_SUPPORT.md).
 
 ### 🌟 Current App Features
 
-- 🌐 **Desktop-class browsing** — Use a native tab strip, private tabs, Reader, bookmarks, history, and downloads.
+- 🌐 **Tabbed browser shell** — Websites, the workspace dashboard, and remote editors live side by side as tabs; the tab overview supports search and bulk actions.
 
-- 🛠️ **Built-in Web Inspector** — Inspect and edit the DOM and CSS, and debug with console and network tools.
+- 🐙 **GitHub Codespaces** — Sign in with GitHub, browse repositories and Codespaces, create workspaces, and start, stop, rename, or delete them.
 
-- 🧭 **Omnibar & Agent** — Navigate to sites and workspaces, run browser actions, summarize pages, compare tabs, and search browsing history.
+- 🔗 **Remote workspaces** — Open reachable HTTP or HTTPS URLs, including self-hosted `code-server` instances; use SSH terminal tabs and Codespace port previews.
 
-- 💻 **Codespaces, code-server & SSH** — Manage GitHub Codespaces, connect to self-hosted `code-server`, and use SSH terminal tabs.
+- 🛠️ **Developer tools** — Use the built-in Web Inspector for DOM, styles, console, and network debugging, plus the omnibar for navigation and workspace commands.
 
-- 🔐 **Keychain & app lock** — Keep GitHub credentials in Apple Keychain and lock the app with Face ID, Touch ID, or your device passcode.
+- ⌨️ **iPad workflows** — Use hardware-keyboard shortcuts, trackpad input, fullscreen editing, and separate windows.
 
-- ⌨️ **iPad workflows & iCloud sync** — Use Magic Keyboard shortcuts and multi-window on iPad; sync bookmarks and history through iCloud.
+- 🔄 **Session continuity** — Keep workspace sessions available between launches and track favorites and recently opened workspaces.
+
+- 🔐 **Privacy by design** — GitHub sign-in uses OAuth PKCE, tokens stay in Apple Keychain, and the app connects directly to GitHub without a Vysio backend.
 
 ---
 
-## 🛠️ How to Report Bugs & Request Features
+## 🛠️ How to Share Feedback & Get Help
 
 Use this repository to share feedback and help shape the future of Vysio:
 
 - 🐛 **Bug Reports** → [Open a Bug Report](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=bug_report.yml)
-- ✨ **Feature Requests** → [Suggest a Feature](https://github.com/PierrePerrin/vysio.app.feedback/issues/new?template=feature_request.yml)
-- 🗺️ **Public Roadmap** → Track upcoming milestones in our Issues & Discussions
+- ✨ **Feature Ideas** → [Start a feature discussion](https://github.com/PierrePerrin/vysio.app.feedback/discussions/new?category=ideas)
+- 💬 **Questions, open-ended ideas, and general feedback** → [Join GitHub Discussions](https://github.com/PierrePerrin/vysio.app.feedback/discussions)
 
-*Please search existing issues before opening a new one to prevent duplicates.*
+*Please search existing issues or discussions before posting.*
 
 ---
 
-## 🗺️ Public Roadmap
+## 🗺️ Development Status
 
-Our public roadmap is structured into three key milestones:
+The app's current implementation status is maintained in the [Vysio feature backlog](https://github.com/PierrePerrin/vysio/blob/main/Docs/FEATURE_BACKLOG/README.md). iPhone-specific progress and outstanding device checks are tracked in the [iPhone support checklist](https://github.com/PierrePerrin/vysio/blob/main/Docs/IPHONE_SUPPORT.md).
 
-### 🔹 Phase 1 — TestFlight Beta (Current)
-- [x] Core iPad native client UX & Magic Keyboard support
-- [x] GitHub authentication & Codespaces launcher
-- [x] Remote URL support (`code-server`, Gitpod)
-- [ ] Keyboard shortcut customization & reliability fixes
-- [ ] Beta feedback & crash reporting loops
-
-### 🔹 Phase 2 — App Store Launch
-- [ ] Production hardening & performance optimization
-- [ ] Onboarding diagnostics for self-hosted instances
-- [ ] Security polish (biometric session lock & auto-timeout)
-- [ ] App Store release
-
-### 🔹 Phase 3 — Advanced Extensions
-- [ ] Multi-workspace switching & QoL enhancements
-- [ ] Deep-link integrations (`vysio://workspace/...`)
-- [ ] Advanced remote configuration hooks & community power features
+Use [Issues](https://github.com/PierrePerrin/vysio.app.feedback/issues) for bug reports and [Discussions](https://github.com/PierrePerrin/vysio.app.feedback/discussions) for feature ideas, questions, and general feedback.
 
 ---
 
@@ -128,7 +116,7 @@ Yes. Vysio captures keyboard events natively on iPadOS, so common VS Code bindin
 - Confirm your GitHub account has access to Codespaces.
 - Verify network connectivity and temporarily disable restrictive VPN/proxy rules.
 - Ensure your organization policies permit Codespaces usage.
-- Open a bug report with logs, screenshots, and reproduction steps.
+- Open a bug report and include reproduction steps, logs, or screenshots if available. For questions or general topics, use [Discussions](https://github.com/PierrePerrin/vysio.app.feedback/discussions).
 
 </details>
 
@@ -136,7 +124,7 @@ Yes. Vysio captures keyboard events natively on iPadOS, so common VS Code bindin
 
 ## 🤝 Community Guidelines
 
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening issues. Keep discussions respectful, constructive, and focused on improving Vysio.
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening issues. Keep issues and [discussions](https://github.com/PierrePerrin/vysio.app.feedback/discussions) respectful, constructive, and focused on improving Vysio.
 
 ---
 
