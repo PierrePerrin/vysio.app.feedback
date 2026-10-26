@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💬 Questions, ideas & general feedback
+  - name: 💬 Not a bug? Use Discussions
     url: https://github.com/PierrePerrin/vysio.app.feedback/discussions
-    about: Use Discussions for open-ended topics and general feedback.
+    about: Questions, feature requests, ideas, and other non-bug feedback belong in Discussions.
   - name: 🌐 Vysio website
     url: https://vysio.app
     about: Product updates and official links.

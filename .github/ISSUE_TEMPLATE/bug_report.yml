@@ -1,5 +1,5 @@
 name: "🐛 Bug Report"
-description: Tell us about something that isn't working
+description: Report something broken. For ideas, questions, or other feedback, use Discussions.
 title: "[Bug]: "
 labels:
   - bug
@@ -8,7 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Tell us what went wrong. Only the first field is required; the rest are optional.
+        Use this form only for bugs—something broken or behaving unexpectedly.
+        For feature requests, questions, or other feedback, [start a Discussion](https://github.com/PierrePerrin/vysio.app.feedback/discussions).
+        Only the first field is required; the rest are optional.
 
   - type: textarea
     id: summary
